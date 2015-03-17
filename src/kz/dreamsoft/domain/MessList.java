@@ -9,7 +9,7 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name = "list")
-public class List extends BaseEntity{
+public class MessList extends BaseEntity{
 
     @Column(name = "list_name")
     private  String listName;
@@ -20,4 +20,3 @@ public class List extends BaseEntity{
         this.listName = listName;
     }
 }
-
